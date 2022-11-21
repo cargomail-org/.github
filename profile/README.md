@@ -1,5 +1,5 @@
-The email system, while conceptually sound as a communication means, is structurally obsolete and functionally deficient. Our goal is to overcome the current data storage and transfer limitations in the email system.
+The email system, while conceptually sound as a communication means, is structurally obsolete and functionally deficient. Given that, we introduce [Cargomail](https://github.com/cargomail-org/cargomail) — a revised email system.
 
-We introduce an authentication mechanism through the [Identity Propagation and Assertions](https://github.com/cargomail/identity-propagation-and-assertions) concept. This mechanism is beneficial in the email system to protect MTA-to-MTA communication.
+Cargomail uses an [Intermodal Message Transfer Agent (IMTA)](https://github.com/cargomail-org/imta) to transfer email resources using push and pull modes. These modes help to overcome the email system's data storage and transmission limitations.
 
-As a proof of concept, we developed [Cargomail](https://github.com/cargomail/cargomail) — a revised email system. This email system uses an [Intermodal Message Transfer Agent (iMTA)](https://github.com/cargomail/imta) to transfer email resources from one server to another using push and pull modes.
+After all, we introduce an authentication mechanism through the [Identity Propagation and Assertions](https://github.com/cargomail-org/identity-propagation-and-assertions) concept. This mechanism is beneficial in the email system to protect IMTA-to-IMTA communication.
