@@ -1,5 +1,6 @@
 The email system, while conceptually sound as a communication means, is structurally obsolete and functionally deficient. Given that, we introduce [Cargomail](https://github.com/cargomail-org/cargomail) — an OAuth2-based email system.
 
-Cargomail uses an [intermodal Message Transfer Agent (iMTA)](https://github.com/cargomail-org/imta) to transfer email resources using push and pull modes. These modes help to overcome the email system's data storage and transmission limitations.
+We propose an authentication mechanism through the [Identity Propagation and Assertions Protocol (IPAP)](https://github.com/cargomail-org/identity-propagation-and-assertions-protocol). This mechanism is beneficial in the email system to protect [MTA-to-MTA](https://github.com/cargomail-org/mta) communication.
 
-After all, we present an authentication mechanism through the [Identity Propagation and Assertions Protocol](https://github.com/cargomail-org/identity-propagation-and-assertions-protocol) concept. This mechanism is beneficial in the email system to protect iMTA-to-iMTA communication.
+Cargomail uses a newly designed [Resource Retrieval System (RRS)](https://github.com/cargomail-org/rrs) to transfer email resources using a pull mode. This mode helps to overcome the email system's data storage and transmission limitations.
+
