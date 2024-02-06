@@ -1,3 +1,3 @@
-The email system, while conceptually sound as a communication means, is structurally obsolete and functionally deficient. Given that, we introduce [Cargomail](https://github.com/cargomail-org/cargomail) — a reference implementation of the [Revised Internet Mail Architecture](https://github.com/cargomail-org/cargomail?tab=readme-ov-file#revised-internet-mail-architecture).
+The email system, while conceptually sound as a communication means, is structurally obsolete and functionally deficient. Given that, we introduce [Cargomail](https://github.com/cargomail-org/cargomail) — a reference implementation of the [Revised Internet Mail Architecture](https://github.com/cargomail-org/cargomail/raw/main/whitepaper/Cargomail.pdf).
 
 We propose a new authentication mechanism through the [Global Reference Identity Protocol (GRIP)](https://github.com/cargomail-org/grip) that helps overcome the limitations of the current DKIM system.
